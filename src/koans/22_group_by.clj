@@ -7,7 +7,7 @@
 
 (meditations
   "To categorize a collection by some function, use group-by."
-  (= __ (group-by count ["hello" "world" "foo" "bar"]))
+  (= 4 (group-by count ["hello" "world" "foo" "bar"]))
 
   "You can simulate filter + remove in one pass"
   (= (get-odds-and-evens [1 2 3 4 5])
